@@ -10,5 +10,5 @@ COPY index.html /var/www/html/
 # Specify the command to run when the container starts, which starts the Apache HTTP server in the foreground
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
 
-# Expose port 80 to allow incoming HTTP traffic to the container
+# Expose port 80 to allow incoming HTTP traffic to the containe
 EXPOSE 80
